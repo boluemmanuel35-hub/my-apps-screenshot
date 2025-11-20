@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Screenshot Gallery - Ojo Emmanuel Boluwatife</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f6f7;
+      color: #333;
+    }
+    header {
+      background: #1e293b;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My App Screenshot Gallery</h1>
+    <p>Ojo Emmanuel Boluwatife</p>
+  </header>
+
+  <div class="container">
+    <h2>Featured Screenshots</h2>
+    <p>Below are screenshots from my developed apps. You can add more anytime.</p>
+
+    <div class="grid">
+      <!-- Replace these image sources with your actual screenshots -->
+      <div class="card">
+        <img src="screenshot1.png" alt="App Screenshot 1">
+        <div class="caption">Quiz App – Home Screen</div>
+      </div>
+
+      <div class="card">
+        <img src="screenshot2.png" alt="App Screenshot 2">
+        <div class="caption">Quiz App – Question Screen</div>
+      </div>
+
+      <div class="card">
+        <img src="screenshot3.png" alt="App Screenshot 3">
+        <div class="caption">Quiz App – Result Screen</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
